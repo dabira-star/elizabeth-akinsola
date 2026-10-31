@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Poppins;
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ul {
+    display: flex;
+    gap: 20px;
+}
+
+.ul:last-child {
+    margin-right: 40px;
+}
+
+
+
+.wrapper ul li {
+    list-style-type: none;
+}
+
+
+
+.hero-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section h1 {
+    font-size: 55px;
+}
+
+.call {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 170px;
+
+
+}
+
+.send {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 170px;
+    margin-left: 30px;
+}
+
+.send:hover {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 170px;
+}
+
+/*.my-works-section span {
+    color: orange;
+}
+
+.my-works-section img {
+    border-radius: 20px;
+}
+
+.my-works-section h5 {
+    color: orange;
+}
+
+.my-works-section h5::before {
+    width: 40px;
+    height: 2px;
+    background-color: orange;
+    display: inline-block;
+    margin: 5px;
+    content: "";
+    
+}
+    .my-works-section > div {
+    width: 100% !important;
+    background-color: red;
+}*/
+
+.my-works-section {
+    display: flex;
+    flex-wrap: wrap;
+     gap: 5px;
+     justify-content: space-between;
+    
+    
+}
+
+.my-works-section > div {
+    width: 47%;
+   
+}
+
+
+
+.how-i-design {
+    text-align: center;
+}
+
+.how-i-design h5 {
+    color: orange;
+}
+
+.how-i-design h5::before {
+    width: 40px;
+    height: 2px;
+    background-color: orange;
+    display: inline-block;
+    margin: 5px;
+    content: "";
+    
+}
+
+.akinsola {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+
+}
+
+
+.product {
+   justify-content: center;
+}
+
+.example {
+    border: 1px solid grey;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+   
+    justify-content: center;
+    gap: 25px;
+    margin: 20px;
+}
+
+.text-div {
+    margin-left: 235px;
+}
+
+.search {
+   align-items: center; 
+}
+
+.elements {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.text-div2 {
+    text-align: center;
+}
+
+.text-div2 h5::after {
+    width: 40px;
+    height: 2px;
+    background-color: orange;
+    display: inline-block;
+    margin: 5px;
+    content: "";
+    
+}
+
+.text-div2 h5 {
+    color: orange;
+}
+
+
+.feedback {
+    background-color: black;
+    border: 1px solid orange;
+    width: 20%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.testimonial-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.text-div3 {
+    margin-left: 255px;
+}
