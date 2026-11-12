@@ -196,7 +196,7 @@ body {
 .feedback {
     background-color: black;
     border: 1px solid orange;
-    width: 20%;
+    width: 100%;
     border-radius: 20px;
     padding: 10px;
 }
@@ -208,8 +208,56 @@ body {
 }
 
 
-.text-div3 {
-    margin-left: 255px;
+.layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout h1 {
+    color: orange;
+}
+
+.layout h1::after {
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: orange;
+    margin: 10px;
+    display: inline-block;
+}
+
+.layout h2::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: orange;
+    margin: 10px;
+    display: inline-block;
+}
+
+.Dennis img {
+    border-radius: 150px;
+    width: 10%;
+}
+
+.classify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.streak {
+    display: flex;
+}
+
+.streak img {
+    border-radius: 200px;
+}
+
+.feedback h2 {
+  content: "\2605 \2605 \2605 \2605 \2605";
+    color: orange;
+    margin: 10px;
+    display: inline-block;  
 }
 
 
